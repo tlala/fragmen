@@ -13,8 +13,10 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        String[] foods = {"jklj","sdfkl|,","tttt"};
+        String[] foods = {"tal","sdfkl|,","tttt"};
         int x = 5;
+        int y = 234;
+        int z = 55;
         ListAdapter adapter = new CustomAdapter(this,foods);
         ListView listView = (ListView)findViewById(R.id.listViewId);
         listView.setAdapter(adapter);
