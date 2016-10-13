@@ -14,6 +14,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         String[] foods = {"jklj","sdfkl|,","tttt"};
+        int x = 5;
         ListAdapter adapter = new CustomAdapter(this,foods);
         ListView listView = (ListView)findViewById(R.id.listViewId);
         listView.setAdapter(adapter);
